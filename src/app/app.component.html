@@ -1,20 +1,718 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="preloader">
+  <div id="status"> <img src="assets/img/preloader.gif" height="64" width="64" alt=""> </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      <a class="navbar-brand page-scroll" href="#page-top"> HFS</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden"> <a href="#page-top"></a> </li>
+        <li> <a class="page-scroll" href="#about">About</a> </li>
+        <li> <a class="page-scroll" href="#services">Services</a> </li>
+        <li> <a class="page-scroll" href="#works">Portfolio</a> </li>
+        <li> <a class="page-scroll" href="#products">Products</a> </li>
+        <li> <a class="page-scroll" href="#export">Export</a> </li>
+        <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
+        <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
+
+<!-- Header -->
+<div id="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+        <img src="assets/img/hfs-logo.png" class="img-responsive" alt="Heaven Funeral Services" style="margin-left: auto;
+    margin-right: auto;">
+          <h1><span class="brand-heading">Heaven Funeral Services</span></h1>
+          <p class="intro-text">24 Hours Klang Bereavement Care Provider</p>
+          <a href="#about" class="btn btn-default page-scroll">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About us</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><img src="assets/img/bereavement2.jpg" class="img-responsive"></div>
+      <div class="col-md-4">
+        <div class="about-text">
+          <h4>Heaven Funeral Services</h4>
+          <p>Heaven Funeral Services provides end-to-end funeral services with complete solutions from cremation services , burial vaults and urns to grave digging, graveside services and memorials.  Heaven Funeral Services has been serving the death care industry for over 10 years and is committed to producing the highest quality product and providing excellence in service. We strive to provide meaningful and lasting memories for our client families in a professional and personal way.</p>
+        </div>
+      </div>
+<!--       <div class="col-md-4">
+        <div class="about-text">
+          <h4>What We Do</h4>
+          <h3>Cremation</h3>
+          <ul>
+            <li>Cremation Caskets </li>
+            <li>Consectetur adipiscing commodo</li>
+            <li>Duis sed dapibus leo sed dapibus</li>
+            <li>Sed commodo nibh ante bibendum</li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- Services Section -->
+<div id="services" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Our Services</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-desktop"></i> -->
+          <h3>Supplier of Coffin / Casket for all Religions</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-cogs"></i> -->
+          <h3>Muslim Funeral Services and Transportation</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-tablet"></i> -->
+          <h3>A grand departure with Import Hearse Mercedes-Benz or Alphard</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!-- <i class="fa fa-html5"></i> -->
+          <h3>Securing release of remains</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-desktop"></i> -->
+          <h3>Arterial Embalming / Dry Ice and Make-Up Services</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-cogs"></i> -->
+          <h3>Burial Arrangements and Reburial Arrangement</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-tablet"></i> -->
+          <h3>Cremation Arrangements and Export of Human Ashes</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!-- <i class="fa fa-html5"></i> -->
+          <h3>Provide of Gurukkal Service and Priest to perform Hindu Ceremonies</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-desktop"></i> -->
+          <h3>Exhumation of Human Remains</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-cogs"></i> -->
+          <h3>Obtaining Burial Permit and Issuing Death</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-tablet"></i> -->
+          <h3>Export and Import of Human Remains to any part of the World</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!-- <i class="fa fa-html5"></i> -->
+          <h3>Prayer materials</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-desktop"></i> -->
+          <h3>Enlargement of photograph and Flowers Arrangement</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-cogs"></i> -->
+          <h3>Professional Music Band and Tevaram ("Traditional Hindu Songs")</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!--  <i class="fa fa-tablet"></i> -->
+          <h3>Catering</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><!-- <i class="fa fa-html5"></i> -->
+          <h3>Canopy Set, Fan, Table, Chairs, Lights and Stand Fan</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="space"></div> -->
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="works">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center center">
+      <h2>Our Portfolio</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Heaven Funeral Services has been serving the death care industry for over 10 years and is committed to producing the highest quality product and providing excellence in service.</p>
+    </div>
+<!--     <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".lorem">Web Design</a></li>
+            <li><a href="#" data-filter=".consectetur">Web Development</a></li>
+            <li><a href="#" data-filter=".dapibus">Branding</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div> -->
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/1.jpg" title="Bayu Perdana Office" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Bayu Perdana Office</p>
+              </div>
+              <img src="assets/img/portfolio/1.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/2.jpg" title="Casket Varieties" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Casket Varieties</p>
+              </div>
+              <img src="assets/img/portfolio/2.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/3.jpg" title="Luxury Bereavement Vehicle" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Luxury Bereavement Vehicle</p>
+              </div>
+              <img src="assets/img/portfolio/3.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/4.jpg" title="Bereavement Vehicle" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Bereavement Vehicle</p>
+              </div>
+              <img src="assets/img/portfolio/4.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/5.jpg" title="Funeral Procession" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Funeral Procession</p>
+              </div>
+              <img src="assets/img/portfolio/5.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/6.jpg" title="Luxury Bereavement Vehicle" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Luxury Bereavement Vehicle</p>
+              </div>
+              <img src="assets/img/portfolio/6.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/7.jpg" title="Foreign Exportation" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Foreign Exportation</p>
+              </div>
+              <img src="assets/img/portfolio/7.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/portfolio/8.jpg" title="Prayers before Funeral Procession" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Prayers before Funeral Procession</p>
+              </div>
+              <img src="assets/img/portfolio/8.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="products">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center center">
+      <h2>Our Products</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Heaven Funeral Services provide varieties of coffins and urns to fulfill the needs of deceased's family members'.</p>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/1.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/1.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/1.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/1.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/3.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/3.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/4.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/4.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/5.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/5.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/6.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/6.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/7.jpg" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/7.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/8.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/8.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/9.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/9.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/10.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/10.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/11.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/11.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/12.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/12.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/13.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/13.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/14.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/14.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/15.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/15.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/16.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/16.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/17.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/17.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/18.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/18.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/19.JPG"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/19.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/20.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/20.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/21.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/21.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/22.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/22.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/23.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/23.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/24.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/24.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/25.JPG"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/25.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/26.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/26.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/27.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/27.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="assets/img/coffins/28.jpg"rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+              </div>
+              <img src="assets/img/coffins/28.jpg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Testimonials Section -->
+<div id="export" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Export Authorization</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-6 lorem">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/mayview.JPG" title="Export to Philippine" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Export to Philippine</p>
+              </div>
+              <img src="assets/img/mayview.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 consectetur">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/exportletter.JPG" title="Export to Germany" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Export to Germany</p>
+              </div>
+              <img src="assets/img/exportletter.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 consectetur">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/klaus.JPG" title="Export to Germany" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Export to Germany</p>
+              </div>
+              <img src="assets/img/klaus.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 consectetur">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/mattumbhum.JPG" title="Export to Thailand" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Export to Thailand</p>
+              </div>
+              <img src="assets/img/mattumbhum.JPG" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="testimonials" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Testimonials</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-6 lorem">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/paper1.jpeg" title="Paper Cutting" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Paper Cutting</p>
+              </div>
+              <img src="assets/img/paper1.jpeg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 consectetur">
+          <div class="portfolio-item2">
+            <div class="hover-bg"> <a href="assets/img/paper2.jpeg" title="Paper Cutting" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Heaven Funeral Services</h4>
+                <p>Paper Cutting</p>
+              </div>
+              <img src="assets/img/paper2.jpeg" class="img-responsive" alt="Heaven Funeral Services"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact us</h2>
+      <hr>
+      <p>Heaven Funeral Service wants to be the most valued supplier and resource your funeral home has.  To do that we need to know: What we are doing right? What we are doing wrong? How we can serve you better? How can we help you meet the challenges you are facing?  What can we do to make you more successful?  To do this, we need your thoughts…your questions…your feedback.  We need to hear from you.</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4">
+        <div class="contact-item"> <i class="fa fa-map-marker fa-2x"></i>
+          <p>No. 57, Jalan Batu Unjur 8, Taman Bayu Perdana,<br>
+            41200 Klang, Selangor D.E.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-item"> <i class="fa fa-envelope-o fa-2x"></i>
+          <a href="mailto:heaven_funeral@yahoo.com"><p>heaven_funeral@yahoo.com</p></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-item"> <i class="fa fa-phone fa-2x"></i>
+          <p> <a href="tel:+6016 348 9332">+6016 348 9332</a><br>
+            <a href="tel:+6019 306 7272">+6019 306 7272</a><br>
+            <a href="tel:+6012 249 7272">+6012 249 7272</a></p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.2905912909696!2d101.42853891558792!3d3.0163698978032953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ac7161aeaba56f!2sHeaven+Funeral+Services!5e0!3m2!1sen!2smy!4v1518287585898" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <h3>Follow us</h3>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <p>Copyright &copy; 2018 Heaven Funeral Services. Developed & Designed by <a href="" rel="nofollow">VAST Innovation Software House</a></p>
+  </div>
+</div>
 
